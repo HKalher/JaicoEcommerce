@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2061801654">
+    <data-source source="LOCAL" name="PostgreSQL - Jaico2@localhost" uuid="c4cf7466-b28f-4360-983b-0845bbf40864">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Jaico2</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

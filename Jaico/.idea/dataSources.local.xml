@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - Jaico2@localhost" uuid="c4cf7466-b28f-4360-983b-0845bbf40864">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>Jaico2.pg_catalog Jaico2.public</schema-pattern>
+      <default-schemas>Jaico2.pg_catalog Jaico2.public</default-schemas>
+    </data-source>
+  </component>
+</project>
