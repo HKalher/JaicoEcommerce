@@ -1,0 +1,32 @@
+<!--<div class="col-sm-7 h1"><a href="{{ homepage_url }}">{% block brand_title %}{{ shop_name }}</a><small> {{ shop_tagline }}</small>{% endblock %}</div>-->
+{% load static %}
+<div id="banner">
+    <div class="jumbotron banner1">
+        <div class="container">
+
+            <div class="jumbotron banner2" style="background-color: white;">
+                <div class="container" style="list-style: none; margin:0px; padding:0px;">
+                    <div class="jaico">
+                        <div class="w3-half w3-card-8 w3-teal" style="margin: -15px 0 30px 0">
+                          <p style="margin-left:125px; font-size: x-large ">Jaico Stationery Store</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 pull-right">
+                            <div class="input-group input-group-sm">
+                                <form method="get" action="{% url 'search:search' %}" class="navbar-form navbar-right">
+                                    <input type="text" id="id_q" name="q" tabindex="1" class="form-control" placeholder="Search for...">
+                                    <!--{{ search_form.q }}-->
+                                    <span class="input-group-btn"><button input type="submit" class="btn btn-default" type="button">Search</button></span>
+                                </form>
+                            </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+                    <!-- banner books images -->
+                    <li class="pull-left"><img height="300px" width="200px" src="{% static 'media/images/stationery1.jpg' %}" alt="image"> </li>
+                    <li class="pull-right"><img height="300px" width="250px" src="{% static 'media/images/stationery2.jpg' %}" alt="image"> </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
