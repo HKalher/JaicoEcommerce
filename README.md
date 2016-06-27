@@ -1,6 +1,6 @@
 # JaicoEcommerce
 
-it is an Ecommerce website built on django framework and oscar framework.
+it is an Ecommerce website developed using django framework and oscar framework.
 
 Here are some screenshots.
 
